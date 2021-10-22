@@ -185,62 +185,56 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-#team { 
+#team {
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
 }
-.container3 { 
+.container3 {
   width: 80%;
 }
-.team-text { 
+.team-text {
   text-align: center;
   margin-top: 50px;
   height: 100px;
-
 }
-.team-text h2 { 
+.team-text h2 {
   color: #333333;
   font-size: 4rem;
   font-weight: bold;
   margin-bottom: 20px;
-
 }
-.team-text p { 
+.team-text p {
   font-size: 1.6rem;
   color: #333333;
-
 }
-.team-img { 
+.team-img {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
-
 }
 
-.team-img img { 
+.team-img img {
   width: 240px;
   height: 240px;
   border-radius: 50%;
 }
-.custom-cols { 
- text-align: center;
-
+.custom-cols {
+  text-align: center;
 }
-.custom-cols h2 { 
+.custom-cols h2 {
   font-size: 2rem;
   font-weight: bold;
   margin-top: 20px;
 }
-.custom-cols p { 
+.custom-cols p {
   font-size: 1.4rem;
   margin-top: 20px;
   margin-bottom: 20px;
-
 }
-.custom-cols i { 
+.custom-cols i {
   width: 40px;
   height: 40px;
   background-color: black;
@@ -250,118 +244,107 @@ img {
   border-radius: 50%;
   margin: 0px 5px;
 }
-.custom-cols i:hover { 
+.custom-cols i:hover {
   background-color: #fed136;
 }
-.row-text { 
+.row-text {
   text-align: center;
   margin-top: 50px;
-  
 }
-.row-text p { 
+.row-text p {
   font-size: 2rem;
 }
-#logo { 
+#logo {
   width: 100%;
   height: 150px;
   background-color: #eeeeee;
   display: flex;
   justify-content: center;
 }
-.logo1 { 
+.logo1 {
   width: 80%;
   height: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.logo1 img { 
+.logo1 img {
   width: 200px;
   height: 50px;
 }
-#message { 
+#message {
   width: 100%;
   height: 80vh;
   background-image: url(./images/map-image.png);
-   display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
   background-size: cover;
   background-color: black;
 }
-.message { 
+.message {
   width: 80%;
   height: 80vh;
-  
-
 }
-.text-about { 
+.text-about {
   text-align: center;
   margin-top: 50px;
   height: 100px;
 }
-.text-about h2 { 
+.text-about h2 {
   color: white;
   font-size: 4rem;
   font-weight: bold;
 }
-.text-about p { 
+.text-about p {
   font-size: 1.4rem;
   margin-top: 20px;
-  color:white;
-
-
+  color: white;
 }
-.input { 
+.input {
   display: flex;
   height: 200px;
-  width:100%;
-  
-  
-  
+  width: 100%;
 }
-form { 
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
- 
-  
-  
 }
-input { 
+input {
   margin-top: 20px;
   width: 550px;
   height: 55px;
 }
-.btn a { 
-  color:white;
+.btn a {
+  color: white;
   background-color: #fed136;
   padding: 25px 75px;
   font-size: 2rem;
 }
-.btn { 
+.btn {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
 }
-.btn a:hover { 
+.btn a:hover {
   opacity: 0.9;
 }
-footer { 
+footer {
   width: 100%;
   height: 100px;
   display: flex;
   justify-content: center;
 }
-.foot { 
+.foot {
   width: 80%;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.center i { 
+.center i {
   width: 40px;
   height: 40px;
   background-color: black;
@@ -370,16 +353,13 @@ footer {
   line-height: 40px;
   border-radius: 50%;
   margin: 0px 5px;
- text-align: center;
+  text-align: center;
 }
-.center i:hover { 
+.center i:hover {
   background-color: #fed136;
 }
-.right a { 
+.right a {
   margin-left: 5px;
   color: #fed136;
   font-size: 1.8rem;
 }
-
-
-
