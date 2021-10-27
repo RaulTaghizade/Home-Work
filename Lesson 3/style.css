@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.img-box { 
+  width: 50%;
+  height: 100vh;
+  background-image: url(./img/bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+
+}
+.text-box { 
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+  flex-direction: column;
+
+  
+}
+header  { 
+  display: flex;
+}
+.img { 
+  width: 150px;
+  margin-bottom: 30px;
+}
+form { 
+  flex-direction: column;
+  display: flex;
+}
+.text-box h1 { 
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+input { 
+  width: 280px;
+  height: 45px;
+  border: none;
+outline: none;
+border-bottom: 1px solid gray;
+}
+input::placeholder { 
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.pass { 
+  margin-left: 150px;
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  color: gray;
+
+}
+.log { 
+  text-decoration: none;
+  background-color:#36CD9B;
+  width: 280px;
+  height: 45px;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+  color: white;
+  margin-top: 30px;
+}
+input:focus { 
+  border-color: #36CD9B;
+}
+.pass:hover { 
+  color: #36CD9B;
+}
+.log:hover { 
+  opacity: 0.7;
+}
