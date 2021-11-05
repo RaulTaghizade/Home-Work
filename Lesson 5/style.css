@@ -7,10 +7,10 @@ body,
 }
 .container {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   background-color: #262b32;
-  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 76%, 0 92%);
-    clip-path: polygon(0 0, 100% 0, 100% 76%, 0 92%); */
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 76%, 0 92%);
+    clip-path: polygon(0 0, 100% 0, 100% 76%, 0 92%);
 }
 .container > header {
   width: 100%;
@@ -93,6 +93,7 @@ body,
 .head-right {
   width: 40%;
   height: 90vh;
+  
 }
 .head-left h1 {
   font-size: 50px;
