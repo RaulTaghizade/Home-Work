@@ -1,0 +1,245 @@
+body,
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Open+Sans:wght@300;700&display=swap");
+$text: #ffffff;
+$main: #ff7361;
+$nav: #2f3239;
+
+.container {
+  width: 100%;
+  height: 50px;
+  background-color: $main;
+  display: flex;
+  justify-content: center;
+  .navbar {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .icon-nav {
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+          display: inline-block;
+          margin-left: 5px;
+          margin-right: 5px;
+          color: $text;
+          font-size: 13px;
+          &:hover {
+            color: $nav;
+          }
+          i {
+            margin-right: 5px;
+          }
+        }
+        .line {
+          background-color: $nav;
+          width: 1px;
+          height: 15px;
+        }
+      }
+    }
+    .input-nav {
+      a {
+        display: inline-block;
+        color: $text;
+        margin-right: 5px;
+      }
+      input {
+        background-color: $main;
+        outline: none;
+        border: none;
+      }
+      ::placeholder {
+        color: $text;
+        font-weight: bold;
+      }
+    }
+  }
+}
+header {
+  background-color: $nav;
+  width: 100%;
+  height: 86px;
+  display: flex;
+  justify-content: center;
+  .nav-link {
+    width: 80%;
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    nav {
+      width: 68%;
+
+      ul {
+        display: flex;
+        li {
+          .active {
+            background-color: $main;
+            I {
+              color: $text;
+            }
+          }
+
+          a {
+            display: inline-block;
+            font-size: 14px;
+            color: $text;
+            font-weight: bold;
+            padding: 8px 15px;
+            &:hover {
+              background-color: $main;
+              color: $text;
+            }
+
+            i {
+              margin-left: 5px;
+              font-size: 14px;
+              color: $main;
+              font-weight: 300;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.main-sec {
+  width: 100%;
+  height: 400px;
+  background-color: $main;
+  display: flex;
+  justify-content: center;
+  .main {
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .main-l {
+      width: 25%;
+      height: 250px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      h2 {
+        color: $text;
+        font-size: 28px;
+      }
+      p {
+        color: $text;
+        font-size: 13px;
+        line-height: 25px;
+        font-weight: bold;
+      }
+      a {
+        font-weight: bold;
+        padding: 7px 21px;
+        background-color: $nav;
+        color: $text;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+    .main-r {
+      width: 65%;
+      height: 400px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      flex-direction: column;
+      background: url("../chrome.png") no-repeat center bottom;
+      .area {
+        outline: none;
+        background-color: #ffe3df;
+        border: none;
+        border-radius: 10px;
+        &::placeholder {
+          color: $nav;
+          font-size: 16px;
+          padding: 30px;
+        }
+      }
+    }
+    a {
+      padding: 7px 21px;
+      background-color: $nav;
+      color: $text;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  }
+}
+.text-top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  .sec-text {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .text-l {
+      width: 65%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h2 {
+        font-size: 15px;
+        color: $nav;
+      }
+    }
+    .text-r { 
+        width: 25% ;
+        height: 200px;
+        border: 1px solid $nav;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-left: 10px;
+        ul { 
+            li { 
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                justify-content: space-around;
+                height: 80px;
+                padding: 10px;
+                background-color:#EAEAEB ;
+                
+                h2 { 
+                    color: $nav ;
+                    font-size: 14px;
+                    
+                }
+            }
+        }
+        h2 {
+            color: $main;
+            font-size: 16px;
+        }
+        
+        hr { 
+            width: 90%;
+        }
+
+
+    }
+  }
+}

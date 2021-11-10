@@ -88,9 +88,11 @@ body,* {
     
     border-radius: 50%;
     
+    
 }
 .container>.sec-main>.sec-main-1>.main-right { 
     width: 47%;
+   
     
 }
 .container>.sec-main>.sec-main-1>.main-left { 
@@ -416,4 +418,7 @@ body,* {
      background-color:#fff;
      color:#FF8365;
      margin-right: 5px;
+ }
+ .three-left img { 
+     width: 700px;
  }
